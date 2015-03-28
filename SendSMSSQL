@@ -1,0 +1,4 @@
+declare @cmd as varchar(1000)    
+SET @cmd = 'START IEXPLORE.EXE "http://172.25.158.198:81/sendmsg?user=admin&passwd=P4lm3x3s3ms&cat=1&to='+ '8112645207' +'&text=Sigue Participando "'                                     
+         
+EXEC master..xp_cmdshell @cmd     
